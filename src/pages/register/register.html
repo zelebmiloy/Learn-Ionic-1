@@ -11,24 +11,103 @@
 </ion-header>
 
 <ion-content padding>
-<ion-list>
-<ion-item>
-  <ion-label floating>Username</ion-label>
-  <ion-input type="username"></ion-input>
-</ion-item>
-<ion-item>
-  <ion-label floating>Firstname</ion-label>
-  <ion-input type="text"></ion-input>
-</ion-item>
-<ion-item>
-  <ion-label floating>Lastname</ion-label>
-  <ion-input type="text"></ion-input>
-</ion-item>
-<ion-item>
-  <ion-label floating>Password</ion-label>
-  <ion-input type="password"></ion-input>
-</ion-item>
+  <ion-list>
+  <ion-item>
+      <ion-label floating>Firstname</ion-label>
+      <ion-input type="text"></ion-input>
+  </ion-item>
+  <ion-item>
+      <ion-label floating>Lastname</ion-label>
+      <ion-input type="text"></ion-input>
+  </ion-item>
+    <ion-item>
+      <ion-label floating>Email</ion-label>
+      <ion-input type="email"></ion-input>
+  </ion-item>
+    <ion-item>
+      <ion-label floating>Username</ion-label>
+      <ion-input type="username"></ion-input>
+    </ion-item>
+  <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input type="password"></ion-input>
+  </ion-item>
+  
 
-</ion-list>
+    <ion-item>
+       <ion-label>Birthday</ion-label>
+      <ion-select [(ngModel)]="day">
+       <ion-option>1</ion-option>
+        <ion-option>2</ion-option>
+        <ion-option>3</ion-option>
+        <ion-option>4</ion-option>
+        <ion-option>5</ion-option>
+        <ion-option>6</ion-option>
+        <ion-option>7</ion-option>
+        <ion-option>8</ion-option>
+        <ion-option>9</ion-option>
+        <ion-option>10</ion-option>
+        <ion-option>11</ion-option>
+        <ion-option>12</ion-option>
+        <ion-option>13</ion-option>
+        <ion-option>14</ion-option>
+        <ion-option>15</ion-option>
+        <ion-option>16</ion-option>
+        <ion-option>17</ion-option>
+        <ion-option>18</ion-option>
+        <ion-option>19</ion-option>
+        <ion-option>20</ion-option>
+        <ion-option>21</ion-option>
+        <ion-option>22</ion-option>
+        <ion-option>23</ion-option>
+        <ion-option>24</ion-option>
+        <ion-option>25</ion-option>
+        <ion-option>26</ion-option>
+        <ion-option>27</ion-option>
+        <ion-option>28</ion-option>
+        <ion-option>29</ion-option>
+        <ion-option>30</ion-option>
+        <ion-option>31</ion-option>
+      </ion-select>
+      <ion-select [(ngModel)]="month">
+        <ion-option value="01">January</ion-option>
+        <ion-option value="02">February</ion-option>
+        <ion-option value="03">March</ion-option>
+        <ion-option value="04">April</ion-option>
+        <ion-option value="05">May</ion-option>
+        <ion-option value="06">June</ion-option>
+        <ion-option value="07">July</ion-option>
+        <ion-option value="08">August</ion-option>
+        <ion-option value="09">September</ion-option>
+        <ion-option value="10">October</ion-option>
+        <ion-option value="11">November</ion-option>
+        <ion-option value="12">December</ion-option>
+      </ion-select>
+      <ion-select [(ngModel)]="year">
+        <ion-option>1989</ion-option>
+        <ion-option>1990</ion-option>
+        <ion-option>1991</ion-option>
+        <ion-option>1992</ion-option>
+        <ion-option>1993</ion-option>
+        <ion-option>1994</ion-option>
+        <ion-option>1995</ion-option>
+        <ion-option>1996</ion-option>
+        <ion-option>1997</ion-option>
+        <ion-option>1998</ion-option>
+        <ion-option>1999</ion-option>
+      </ion-select>
+    </ion-item>
+     <ion-item>
+      <ion-label>Gender</ion-label>
+      <ion-select [(ngModel)]="gender">
+        <ion-option value="f">Female</ion-option>
+        <ion-option value="m">Male</ion-option>
+      </ion-select>
+    </ion-item>
+   
+  </ion-list>
+ <p>
+            <button type="cancel" ion-button >cancel</button>
+            <button type="submit" ion-button >submit</button>
 </ion-content>
   

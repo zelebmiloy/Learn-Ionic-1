@@ -6,23 +6,25 @@
 -->
 <ion-header>
 
- <ion-navbar color="primary">
-    <ion-title>Login</ion-title>
-  </ion-navbar>
+    <ion-navbar color="primary">
+      <ion-title>Login</ion-title>
+    </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding class="login-signup">
+    <ion-item>
+      <ion-label floating>Username</ion-label>
+      <ion-input type="username"></ion-input>
+    </ion-item>
 
-<ion-item>
-  <ion-label floating>Username</ion-label>
-  <ion-input type="username"></ion-input>
-</ion-item>
-
-<ion-item>
-  <ion-label floating>Password</ion-label>
-  <ion-input type="password"></ion-input>
-</ion-item>
-
+    <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+    <p>
+           <button type="forgetpass" ion-button>Forget Password</button>
+         
+           <button type="login" ion-button>login</button>     
 </ion-content>

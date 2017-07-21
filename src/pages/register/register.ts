@@ -13,12 +13,18 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'register.html',
 })
 export class RegisterPage {
+  gender: string = "f";
+  day: number;
+  month: string;
+  year: number;
 
+ 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad RegisterPage');
+        console.log('STP selected');
+        console.log('ionViewDidLoad RegisterPage');
   }
 
 }

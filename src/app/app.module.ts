@@ -14,6 +14,7 @@ import { LoginPage } from '../pages/login/login';
     HomePage,
     RegisterPage,
     LoginPage
+  
   ],
   imports: [
     BrowserModule,
